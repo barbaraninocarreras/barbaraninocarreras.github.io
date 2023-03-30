@@ -229,14 +229,14 @@ img {
 }
 
 /* This rule applies to screens that are 768px or wider (e.g., tablets) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
   img {
     max-width: 50%; /* Images take up only 50% of the container width */
   }
 }
 
 /* This rule applies to screens that are 480px or wider (e.g., smartphones) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   img {
     max-width: 100%; /* Images take up the full width of the container */
   }
