@@ -69,6 +69,7 @@ nav a {
 
 nav a:hover {
   color: #6A5ACD;
+  text-decoration: underline;
 }
 
 nav .logo {
@@ -92,7 +93,7 @@ nav .menu-toggle {
     margin-right: 0;
     margin-bottom: 0.5em;
     display: block;
-    font-size: 0.75em;
+    font-size: 1.5em;
   }
 
   nav .logo {
@@ -129,13 +130,13 @@ nav .menu li:last-child {
 nav .menu a {
   color: #6A5ACD;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 nav .menu a:hover {
   color: #6A5ACD;
+text-decoration: underline;
 }
-
 
 /* Container */
 .container {
