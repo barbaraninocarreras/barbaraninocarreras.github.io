@@ -223,7 +223,7 @@ table {
 /* Media query */
 @media screen and (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.25;
   }
 	footer {
