@@ -35,11 +35,13 @@
 
 /* Fonts */
 body {
-  font-family: 'Merriweather Light', serif;
+  font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Merriweather Black', serif;
+ font-family: 'Libre Baskerville', serif;
+ font-weight: bold;
 }
 
 
@@ -138,6 +140,7 @@ nav .menu a:hover {
 text-decoration: underline;
 }
 
+
 /* Container */
 .container {
   margin: 0 auto;
@@ -157,6 +160,17 @@ h1, h2, h3, h4, h5, p {
   margin-bottom: 0.50em;
 }
 
+figure {
+  /* Set the font size of the caption */
+  font-size: 16px;
+}
+
+figcaption {
+  /* Style the caption text as needed */
+  text-align: left;
+  padding: 10px;
+}
+
 /* Home */
 .hero {
   padding: 5% 10% 15% 10%;
@@ -165,7 +179,7 @@ h1, h2, h3, h4, h5, p {
 
 /* Reset */
 html {
-  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 100%;
   background-color: #f0f0f0; /* background color of website */
 }
@@ -209,7 +223,7 @@ table {
 /* Media query */
 @media screen and (max-width: 768px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.25;
   }
 	footer {
@@ -222,6 +236,7 @@ ol{
 	list-style:disc;
 
 }
+
 
 /* Image and screen sizes */
 /* This rule applies to all screen sizes */
