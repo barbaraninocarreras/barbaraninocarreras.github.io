@@ -202,6 +202,11 @@ ol, ul {
   list-style: none;
   margin: 0;
   padding: 0;
+	
+	}
+li {
+  margin-bottom: 12px; /* add margin to the bottom of each list item */
+  /* add other styles for the list items */
 }
 
 blockquote, q {
@@ -231,12 +236,6 @@ padding-top: 2em;
 padding-bottom: 2em;
 }
 	}
-	/* bullet points */
-ol{
-	list-style:disc;
-
-}
-
 
 /* Image and screen sizes */
 /* This rule applies to all screen sizes */
@@ -244,7 +243,6 @@ img {
   max-width: 100%; /* Ensures images don't exceed their container */
   height: auto; /* Maintains aspect ratio of images */
  width: 100%; /* Forces images to occupy the full width of their container */
-}
 }
 
 /* This rule applies to screens that are 768px or wider (e.g., tablets) */
