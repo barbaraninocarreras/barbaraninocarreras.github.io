@@ -7,7 +7,6 @@
   ========================================
 */
 
-
 /*
   ========================================
   Clearfix
@@ -22,7 +21,6 @@
   clear: both;
 }
 .group {
-  clear: both;
   *zoom: 1;
 }
 
@@ -36,19 +34,45 @@
 /* Fonts */
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #483D8B;
 }
 
 h1, h2, h3, h4, h5 {
- font-family: 'Merriweather', sans-serif;
- font-weight: ExtraBold 800;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  margin-bottom: 0.5em;
 }
 
-
 /* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  img {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    max-width: 100%;
+  }
+}
 
 figure {
   margin: 1em 0;
+  font-size: 16px;
+}
+
+figcaption {
+  text-align: left;
+  padding: 10px;
 }
 
 /* Navigation */
@@ -56,7 +80,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:  #f0f0f0;
+  background-color: #f0f0f0;
   border-bottom: 1px solid #e5e5e5;
   padding: 1em 0;
 }
@@ -83,6 +107,26 @@ nav .menu-toggle {
   display: none;
   font-size: 2em;
   cursor: pointer;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+}
+
+nav .menu li {
+  margin-right: 1em;
+  list-style: none;
+}
+
+nav .menu li:last-child {
+  margin-right: 0;
+}
+
+nav .menu a {
+  color: #483D8B;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
@@ -115,82 +159,24 @@ nav .menu-toggle {
   }
 }
 
-nav .menu {
-  display: flex;
-  align-items: center;
-}
-
-nav .menu li {
-  margin-right: 1em;
-  list-style: none;
-}
-
-nav .menu li:last-child {
-  margin-right: 0;
-}
-
-nav .menu a {
-  color: #6A5ACD;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-nav .menu a:hover {
-  color: #6A5ACD;
-text-decoration: underline;
-}
-
-
 /* Container */
 .container {
   margin: 0 auto;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding: 0 2.5%;
   width: 95%;
   max-width: 960px;
 }
-/*skip to main */
+
+/* Skip to main */
 .skip-link {
   padding-bottom: 2em;
 }
-
-
-/* Typography */
-h1, h2, h3, h4, h5, p {
-  margin-bottom: 0.50em;
-}
-
-figure {
-  /* Set the font size of the caption */
-  font-size: 16px;
-}
-
-figcaption {
-  /* Style the caption text as needed */
-  text-align: left;
-  padding: 10px;
-}
-
-/* Home */
-.hero {
-  padding: 5% 10% 15% 10%;
-}
-
 
 /* Reset */
 html {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   max-width: 100%;
-  background-color: #f0f0f0; /* background color of website */
-}
-body {
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  color:  #483D8B; /* set text color to #6A5ACD */
-}
-a {
-  color: #483D8B; /* set link color to #6A5ACD */
+  background-color: #f0f0f0;
 }
 
 article, aside, details, figcaption, figure,
@@ -202,11 +188,10 @@ ol, ul {
   list-style: none;
   margin: 0;
   padding: 0;
-	
-	}
+}
+
 li {
-  margin-bottom: 12px; /* add margin to the bottom of each list item */
-  /* add other styles for the list items */
+  margin-bottom: 12px;
 }
 
 blockquote, q {
@@ -216,7 +201,6 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
 }
 
 table {
@@ -224,37 +208,19 @@ table {
   border-spacing: 0;
 }
 
-
 /* Media query */
 @media screen and (max-width: 768px) {
   html {
     font-size: 16px;
     line-height: 1.25;
   }
-	footer {
-padding-top: 2em;
-padding-bottom: 2em;
-}
-	}
 
-/* Image and screen sizes */
-/* This rule applies to all screen sizes */
-img {
-  max-width: 100%; /* Ensures images don't exceed their container */
-  height: auto; /* Maintains aspect ratio of images */
- width: 100%; /* Forces images to occupy the full width of their container */
-}
-
-/* This rule applies to screens that are 768px or wider (e.g., tablets) */
-@media only screen and (min-width: 768px) {
-  img {
-    max-width: 100%; /* Images take up only 50% of the container width */
+  footer {
+    padding: 2em 0;
   }
 }
 
-/* This rule applies to screens that are 480px or wider (e.g., smartphones) */
-@media only screen and (max-width: 480px) {
-  img {
-    max-width: 100%; /* Images take up the full width of the container */
-  }
+/* Home */
+.hero {
+  padding: 5% 10% 15% 10%;
 }
