@@ -33,7 +33,7 @@
 
 /* Fonts */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-family: "Lato", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 400; /* Normal font weight */
   line-height: 1.6; /* Improved line height for readability */
   margin: 0;
