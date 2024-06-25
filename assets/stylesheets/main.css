@@ -171,8 +171,8 @@ nav .menu a {
 /* Skip to main */
 .skip-link {
   padding-bottom: 2em;
+  font-family: "Lato", Helvetica, Arial, sans-serif; /* Add Lato font to skip link */
 }
-
 /* Reset */
 html {
   font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
