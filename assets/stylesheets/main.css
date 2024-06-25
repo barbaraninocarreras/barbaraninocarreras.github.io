@@ -33,7 +33,7 @@
 
 /* Fonts */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 600;
   line-height: 1.5;
   margin: 0;
@@ -41,10 +41,11 @@ body {
   color: #483D8B;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Merriweather', sans-serif;
-  font-weight: 900;
-  margin-bottom: 0.5em;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-weight: 500; /* Medium font weight */
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 0.875em; /* Bottom margin for spacing */
 }
 
 /* Images */
