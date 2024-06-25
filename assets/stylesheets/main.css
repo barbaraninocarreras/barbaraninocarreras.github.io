@@ -33,12 +33,12 @@
 
 /* Fonts */
 body {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
-  font-weight: 600;
-  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-weight: 400; /* Normal font weight */
+  line-height: 1.6; /* Improved line height for readability */
   margin: 0;
   padding: 0;
-  color: #483D8B;
+  color: #483D8B; /* Adjusted color for readability */
 }
 
 h1, h2, h3, h4, h5, h6 {
