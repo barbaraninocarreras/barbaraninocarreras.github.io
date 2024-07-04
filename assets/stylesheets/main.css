@@ -23,14 +23,6 @@
 .group {
   *zoom: 1;
 }
-
-/* Box sizing */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 /* Fonts */
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
@@ -73,81 +65,43 @@ nav {
   border-bottom: 1px solid #e5e5e5;
   padding: 1em 0;
 }
-
 nav a {
   text-decoration: none;
   color: #483D8B;
   margin-right: 1em;
   font-size: 1.2em;
   font-weight: bold;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif; /* Add Lato Montserrat to navigation */
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 nav a:hover {
   color: #6A5ACD;
   text-decoration: underline;
 }
-
 nav .logo {
   font-size: 2em;
   font-weight: bold;
 }
-
 nav .menu-toggle {
   display: none;
   font-size: 2em;
   cursor: pointer;
 }
-
 nav .menu {
   display: flex;
   align-items: center;
 }
-
 nav .menu li {
   margin-right: 1em;
   list-style: none;
 }
-
 nav .menu li:last-child {
   margin-right: 0;
 }
-
-nav .menu a {
-  color: #483D8B;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
     padding: 1em;
   }
-
-  nav a {
-    margin-right: 0;
-    margin-bottom: 0.5em;
-    display: block;
-    font-size: 1.5em;
-  }
-
-  nav .logo {
-    margin-bottom: 1em;
-  }
-
-  nav .menu-toggle {
-    display: block;
-  }
-
-  nav .menu {
-    display: none;
-  }
-
-  nav .menu.show {
-    display: block;
-  }
-}
-
 /* Container */
 .container {
   margin: 0 auto;
@@ -155,60 +109,44 @@ nav .menu a {
   width: 80%;
   max-width: 760px;
 }
-
 /* Skip to main */
 .skip-link {
   padding-bottom: 2em;
   font-family: "Lato", Helvetica, Arial, sans-serif; /* Add Lato font to skip link */
 }
-/* Reset */
-html {
-  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width: 100%;
-  background-color: #f0f0f0;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
 ol, ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 li {
   margin-bottom: 12px;
 }
-
 blockquote, q {
   quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /* Media query */
 @media screen and (max-width: 768px) {
   html {
     font-size: 16px;
     line-height: 1.25;
   }
-
   footer {
     padding: 2em 0;
   }
 }
-
 /* Home */
 .hero {
   padding: 5% 10% 15% 10%;
