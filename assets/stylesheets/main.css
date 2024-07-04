@@ -121,6 +121,63 @@ nav .menu li:last-child {
   padding-bottom: 2em;
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
 }
+
+/* Skip to Main Content link, test */
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background-color: #000;
+    color: #8a2be2;
+    padding: 8px 15px;
+    z-index: 100;
+    border-radius: 4px;
+    text-align: center;
+    transition: top 0.3s ease;
+}
+.skip-to-content:focus {
+    top: 10px;
+}
+.skip-to-content:hover,
+.skip-to-content:active {
+    top: 10px;
+}
+/* Additional link styles */
+a.primary {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+a.primary:hover,
+a.primary:focus {
+    background-color: #0056b3;
+}
+a.secondary {
+    color: #000;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+a.secondary:hover,
+a.secondary:focus {
+    background-color: #e2e6ea;
+}
+/* Ensure skip link is visible for accessibility */
+body {
+    position: relative;
+}
+.skip-to-content {
+    position: absolute;
+    left: 0;
+    top: -100%;
+}
+.skip-to-content:focus {
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 /* Container */
 .container {
   margin: 0 auto;
@@ -164,4 +221,14 @@ table {
 /* Home */
 .hero {
   padding: 5% 10% 15% 10%;
+}
+/* General link styling */
+a {
+    color: #8a2be2;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #8a2be2;
+    text-decoration: underline;
 }
