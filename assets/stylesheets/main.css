@@ -30,7 +30,7 @@ body {
   line-height: 1.6; /* Improved line height for readability */
   margin: 0;
   padding: 0;
-  color: #553d8b; /* Adjusted color for readability, dark greish */
+  color: #483D8B; /* Adjusted color for readability */
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
@@ -63,7 +63,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #553d8b;
+  color: #483D8B;
   margin-right: 1em;
   font-size: 1.2em;
   font-weight: bold;
@@ -116,6 +116,13 @@ nav .menu li:last-child {
   nav .menu.show {
     display: block;
   }
+}
+/* Skip to main */
+.skip-link {
+  padding-bottom: 2em;
+  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+}
+
 /* Skip to Main Content link, test */
 .skip-to-content {
     position: absolute;
@@ -164,7 +171,7 @@ body {
 .skip-to-content {
     position: absolute;
     left: 0;
-    top: -80%;
+    top: -100%;
 }
 .skip-to-content:focus {
     top: 0;
