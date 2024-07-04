@@ -60,7 +60,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 280px) {
   img {
     max-width: 100%;
   }
@@ -164,8 +164,8 @@ nav .menu a {
 .container {
   margin: 0 auto;
   padding: 0 2.5%;
-  width: 95%;
-  max-width: 960px;
+  width: 80%;
+  max-width: 760px;
 }
 
 /* Skip to main */
