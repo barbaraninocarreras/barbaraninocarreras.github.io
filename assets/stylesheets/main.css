@@ -69,7 +69,7 @@ nav a {
   font-weight: bold;
 }
 nav a:hover {
-  color: #6A5ACD;
+  color: #8A2BE2;
   text-decoration: underline;
 }
 nav .logo {
@@ -232,4 +232,9 @@ a:hover,
 a:focus {
     color: #8a2be2;
     text-decoration: underline;
+}
+/* Add focus styles for interactive elements */
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+  outline: 3px solid #8A2BE2; /* Purple border for focus indication */
+  outline-offset: 2px;
 }
