@@ -32,30 +32,25 @@ body {
   padding: 0;
   color: #483D8B; /* Adjusted color for readability */
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 900; /* High font weight */
   margin-top: 0; /* Remove default top margin */
   margin-bottom: 0.875em; /* Bottom margin for spacing */
 }
-
 /* Images */
 img {
   max-width: 100%;
   height: auto;
 }
-
 figure {
   margin: 1em 0;
   font-size: 16px;
 }
-
 figcaption {
   text-align: left;
   padding: 10px;
 }
-
 /* Navigation */
 nav {
   display: flex;
@@ -97,22 +92,42 @@ nav .menu li {
 nav .menu li:last-child {
   margin-right: 0;
 }
+/* Media query for navigation */
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
     padding: 1em;
   }
+  nav a {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    display: block;
+    font-size: 1.5em;
+  }
+  nav .logo {
+    margin-bottom: 1em;
+  }
+  nav .menu-toggle {
+    display: block;
+  }
+  nav .menu {
+    display: none;
+  }
+  nav .menu.show {
+    display: block;
+  }
+}
+/* Skip to main */
+.skip-link {
+  padding-bottom: 2em;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
 /* Container */
 .container {
   margin: 0 auto;
   padding: 0 2.5%;
   width: 80%;
   max-width: 760px;
-}
-/* Skip to main */
-.skip-link {
-  padding-bottom: 2em;
-  font-family: "Lato", Helvetica, Arial, sans-serif; /* Add Lato font to skip link */
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
