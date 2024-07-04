@@ -119,14 +119,14 @@ nav .menu li:last-child {
 /* Skip to Main Content link, test */
 .skip-to-content {
     position: absolute;
-    top: -80px;
-    left: 30px;
+    top: -40px;
+    left: 10px;
     background-color: #000;
     color: #8a2be2;
     padding: 8px 15px;
     z-index: 100;
-    border-radius: 6px;
-    text-align: left;
+    border-radius: 4px;
+    text-align: center;
     transition: top 0.3s ease;
 }
 .skip-to-content:focus {
