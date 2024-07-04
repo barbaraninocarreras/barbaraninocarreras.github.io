@@ -34,7 +34,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
-  font-weight: 900; /* High font weight */
+  font-weight: 800; /* High font weight */
+  line-height: 1.3; /* Improved line height for readability */
   margin-top: 0; /* Remove default top margin */
   margin-bottom: 0.875em; /* Bottom margin for spacing */
 }
