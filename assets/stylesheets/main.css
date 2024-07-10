@@ -31,7 +31,7 @@ body {
   text-align: left;
   margin: 0;
   padding: 0;
-  color: #483D8B; /* Adjusted color for readability */
+  color: #110564; /* Adjusted color for readability */
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
@@ -138,8 +138,6 @@ nav .menu li:last-child {
   left: -9999px;
   z-index: 999;
   padding: 1em;
-  background-color:#8a2be2;
-  color: white;
   opacity: 0;
 }
 /* Container */
@@ -188,7 +186,7 @@ table {
 }
 /* General link styling */
 a {
-    color: #8a2be2;
+    color: #110564;
     text-decoration: none;
     font-size: 16px;
     font-weight: 400; /* High font weight */
