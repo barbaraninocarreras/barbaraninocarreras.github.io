@@ -33,7 +33,7 @@ body {
   color: #483D8B; /* Adjusted color for readability */
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-family: "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 800; /* High font weight */
   line-height: 1.3; /* Improved line height for readability */
   margin-top: 0; /* Remove default top margin */
@@ -59,7 +59,7 @@ nav {
   align-items: center;
   border-bottom: 1px solid #e5e5e5;
   padding: 1em 0;
-  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
 }
 nav a {
   text-decoration: none;
@@ -119,7 +119,7 @@ nav .menu li:last-child {
 }
 /* Skip to Main Content link, test 2 */
 .skip-to-main-content-link {
-  font-family: "Montserrat", Arial, sans-serif; /* Font family with fallbacks */
+  font-family: "helvetica", Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 800; /* High font weight */
   font-size: 2 em;
   line-height: 1.3; /* Improved line height for readability */
