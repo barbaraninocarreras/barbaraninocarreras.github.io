@@ -117,28 +117,9 @@ nav .menu li:last-child {
     display: block;
   }
 }
-/* Skip to main */
-.skip-link {
-  padding-bottom: 2em;
-  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
-}
-
-/* Skip to Main Content link, test */
-.skip-to-content {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    background-color: #000;
-    color: #8a2be2;
-    padding: 8px 15px;
-    z-index: 100;
-    border-radius: 4px;
-    text-align: center;
-    transition: top 0.3s ease;
-}
 /* Skip to Main Content link, test 2 */
 .skip-to-main-content-link {
-  font-family: "Montserrat", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; /* Font family with fallbacks */
+  font-family: "Montserrat", Arial, sans-serif; /* Font family with fallbacks */
   font-weight: 800; /* High font weight */
   font-size: 2 em;
   line-height: 1.3; /* Improved line height for readability */
@@ -149,11 +130,6 @@ nav .menu li:last-child {
   background-color:#8a2be2;
   color: white;
   opacity: 0;
-}
-.skip-to-main-content-link:focus {
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 1;
 }
 /* Container */
 .container {
