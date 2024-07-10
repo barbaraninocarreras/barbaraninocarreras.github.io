@@ -235,6 +235,6 @@ a:focus {
 }
 /* Add focus styles for interactive elements */
 a:focus, button:focus, input:focus, textarea:focus, select:focus {
-  outline: 3px solid #8A2BE2; /* Purple border for focus indication */
+  outline: 3px solid #f70897; /* Purple border for focus indication */
   outline-offset: 2px;
 }
